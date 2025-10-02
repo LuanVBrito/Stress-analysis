@@ -12,10 +12,7 @@ st.title("Stress Level Analysis")
 
 #Input
 #stage_input = st.selectbox(label="Choose academic stage",options=df["Your Academic Stage"].unique())
-stage_input = st.sidebar.selectbox(
-    "Choose academic stage",
-    options=df["Your Academic Stage"].unique()
-)
+stage_input = st.sidebar.selectbox("Choose academic stage",options=df["Your Academic Stage"].unique())
 
 #Timestamp,Your Academic Stage,Peer pressure,Academic pressure from your home,Study Environment,What coping strategy you use as a student?,"Do you have any bad habits like smoking, drinking on a daily basis?",What would you rate the academic  competition in your student life,Rate your academic stress index 
 
@@ -58,8 +55,7 @@ with kpi_colh4:
     st.plotly_chart(historigram_stress)
 
 #Academic stress distribution
-fig = px.box(df, x="Your Academic Stage", y="Rate your academic stress index ",
-             color="Your Academic Stage")
+fig = px.box(df, x="Your Academic Stage", y="Rate your academic stress index ",color="Your Academic Stage")
 st.plotly_chart(fig)
 
 
