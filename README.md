@@ -28,11 +28,14 @@ It helps compare stress levels across different academic stages (**High School, 
 
 ---
 
-## 🚀 How to Run  
-
+## 🚀 How to Run
+```bash
 git clone https://github.com/LuanVBrito/academic-stress-dashboard.git
 cd academic-stress-dashboard
+pip install -r requirements.txt
+streamlit run stress.py
 
 
 # Dashboard example
 <img width="1855" height="909" alt="imagesdashboard" src="https://github.com/user-attachments/assets/bc64c133-3d15-40fd-9705-45303772a678" />
+
