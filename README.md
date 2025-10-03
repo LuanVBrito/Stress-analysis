@@ -1,8 +1,38 @@
-# Academic Stress Level Dashboard
+# 📊 Academic Stress Level Dashboard  
 
-A survey-based study on academic stress and environments
+An interactive Streamlit dashboard analyzing academic stress levels among students.  
 
-# About Dataset
+---
 
-This dataset captures students academic stress levels between pressure and stress distribution. It provides insights into how
-different
+## 📌 Overview  
+This project visualizes survey data on **academic stress, peer pressure, competition, and coping strategies**.  
+It helps compare stress levels across different academic stages (**High School, Undergraduate, and Postgraduate**).
+
+---
+
+## 📂 Dataset  
+- **Source:** Self-reported survey responses  
+- **Features included:**  
+  - Academic Stage (High School, Undergraduate, Postgraduate)  
+  - Peer Pressure  
+  - Academic Pressure from Home    
+  - Stress Index  
+
+---
+
+## ⚙️ Features of the Dashboard  
+✅ **Filter**: Choose academic stage (e.g., Undergraduate)  
+✅ **KPIs**: Quick metrics for peer pressure, academic pressure, competition, and stress index  
+✅ **Interactive Charts**: Histograms showing stress and pressure distributions  
+✅ **Expandable sections / Sidebar controls** for improved navigation  
+
+---
+
+## 🚀 How to Run  
+
+git clone https://github.com/LuanVBrito/academic-stress-dashboard.git
+cd academic-stress-dashboard
+
+
+# Dashboard example
+<img width="1855" height="909" alt="imagesdashboard" src="https://github.com/user-attachments/assets/bc64c133-3d15-40fd-9705-45303772a678" />
