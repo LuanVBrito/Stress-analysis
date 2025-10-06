@@ -5,7 +5,7 @@ An interactive Streamlit dashboard analyzing academic stress levels among studen
 ---
 
 ## 📌 Overview  
-This project visualizes survey data on **academic stress, peer pressure, competition, and coping strategies**.  
+This project visualizes survey data on **academic stress, peer pressure, competition and academic stress**.  
 It helps compare stress levels across different academic stages (**High School, Undergraduate, and Postgraduate**).
 
 ---
@@ -38,5 +38,6 @@ streamlit run stress.py
 
 # Dashboard example
 <img width="1855" height="909" alt="imagesdashboard" src="https://github.com/user-attachments/assets/bc64c133-3d15-40fd-9705-45303772a678" />
+
 
 
