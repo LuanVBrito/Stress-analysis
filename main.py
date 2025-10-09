@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 df = pd.read_csv("stress.csv")
 
-st.dataframe(df)
+
 
 st.title("Stress Level Analysis")
 
@@ -65,3 +65,5 @@ st.download_button("📥 Download filtered data",
                    df.to_csv(index=False).encode("utf-8"), 
                    "filtered_data.csv", 
                    "text/csv")
+
+st.dataframe(df)
